@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed.clinic_app.Home"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp" 
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".7"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/insta"
+            android:layout_marginTop="9dp"
+            android:id="@+id/insta"
+
+
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="right"
+
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mnm"
+            android:layout_marginTop="9dp"
+            android:id="@+id/grsa"
+
+
+
+
+            />
+    </LinearLayout>
+
+    
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/button_s"
+        android:id="@+id/l1"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="child clinic"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:id="@+id/t1"
+
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:src="@drawable/chas"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/button_s"
+        android:id="@+id/l2"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="public surgy"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:id="@+id/t2"
+
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:src="@drawable/pubsur"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/button_s"
+        android:id="@+id/l3"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="bone surgy"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:id="@+id/t3"
+
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:src="@drawable/banno"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/button_s"
+        android:id="@+id/l4"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="teeth surgy"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:id="@+id/t4"
+
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:src="@drawable/tetha"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/button_s"
+        android:id="@+id/l5"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="heart diseas"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:id="@+id/t5"
+
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:src="@drawable/heartw"
+
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

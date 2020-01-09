@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/button_s"
+
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:text="enter your discription"
+                    android:gravity="center"
+                    android:onClick="dialoge"
+                    android:id="@+id/tre"
+
+                    />
+
+            </LinearLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/imas"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/targ"
+                android:onClick="chooseImage"
+                />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/button_s"
+            android:layout_margin="20dp"
+            >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Resrvation"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                >
+                <View
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#929999"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ssetmdpi"
+                    />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ssethdpi"
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".75"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:text="500"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:text="waiting 60 minuit"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".6"
+                >
+                <View
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#929999"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight=".75"
+                    android:text="sunday from 3.00 pm to 6.00 pm"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_margin="4dp"
+                    android:paddingRight="7dp"
+                    android:paddingLeft="7dp"
+                    android:textSize="13dp"
+                    android:textColor="#fff"
+                    android:shadowColor="#fff"
+                    android:background="@drawable/fin"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="13dp"
+                    android:layout_height="0dp"
+                    android:layout_weight=".75"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:text="wensday from 3.00 pm to 6.00 pm"
+                    android:gravity="center_vertical"
+                    android:textColor="#fff"
+                    android:paddingRight="7dp"
+                    android:paddingLeft="7dp"
+                    android:background="@drawable/oop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".75"
+                        android:text="payment for first come in"
+                        android:gravity="center"
+                        android:textSize="10sp"
+                        android:textColor="#fff"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:background="@drawable/mm"
+                        android:text="submit"
+                        android:textColor="#3F51B5"
+                        android:onClick="savein"
+                        android:elevation="15dp"
+                        />
+                    
+                </LinearLayout>
+
+               
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_s"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="Address"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:src="@drawable/map"
+                    android:scaleType="fitXY"
+                    android:onClick="muni"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingRight="30dp"
+                    android:paddingLeft="30dp"
+                    >
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:background="#fff"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="20dp"
+
+
+
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Phone number"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:paddingLeft="5dp"
+                    android:gravity="center_vertical"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="7777777"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:paddingLeft="5dp"
+                    android:gravity="center_vertical"
+                    />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_s"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"
+                        android:gravity="center"
+                        android:textColor="#fff"
+                        android:textSize="15dp"
+                        android:text="Departement"
+                        />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".8"
+                        >
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:entries="@array/spd"
+                            android:id="@+id/osp"
+
+                            >
+
+                        </Spinner>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="#fff"
+                        android:text="all your modification will be submmited to the database"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

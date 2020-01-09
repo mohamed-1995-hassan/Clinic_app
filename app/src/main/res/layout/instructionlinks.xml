@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".59"
+            android:background="@drawable/buttons"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:text="Instruction"
+            android:textColor="#fff"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:background="@drawable/buttonss"
+            android:padding="15dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.6"
+                android:textSize="11dp"
+                android:text="This video is all about brushing your teeth directed at children some topic include plaque cavities and how to brush your teeth and best method to use brushing your teeth there is also instruction on how to floss your teeth Diet and generalhealth tips andalso included such as eating more fruits and vegetables and drinking plenty of water "
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#189"
+                android:id="@+id/t1"
+                android:textSize="11dp"
+                android:text="https://youtube/hDZXSMU2IAK"
+                android:onClick="go1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.4"
+                android:textSize="11dp"
+                android:text="in this video Naturopay shares some tips on making healthy nutritious lunches that help keep kids full all day long"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="11dp"
+                android:text="https://youtube/qY1avLBQJ7k"
+                android:textColor="#189"
+                android:gravity="center"
+                android:id="@+id/t2"
+                android:onClick="go2"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:textSize="11dp"
+                android:text="Learn how to keep your hands clean and stay healthy with Germ Smart - not just for kids"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="11dp"
+                android:text="https://youtube/LO24EfM7sEw"
+                android:textColor="#189"
+                android:gravity="center"
+                android:id="@+id/t3"
+                android:onClick="go3"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="false">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/button_s"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/idrn"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/desert"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/de"
+    />
+    </FrameLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="700dp"
+    android:padding="20dp"
+    android:orientation="vertical"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:textColor="#1b1f86"
+            android:text="Reservation"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+
+</LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            >
+           <ListView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/lz"
+               ></ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

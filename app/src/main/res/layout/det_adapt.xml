@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+
+        android:layout_marginTop="9dp"
+        android:background="@drawable/button_s"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+           android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="sun 2pm to 4pm"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="wed 2pm to 4pm"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:layout_height="match_parent">
+        <View
+            android:layout_height="45dp"
+            android:layout_width="1dp"
+            android:background="#fff"
+
+            android:layout_gravity="center_vertical"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".9"
+                android:layout_height="match_parent"
+                android:text="Ahmed"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:textColor="#fff"
+                android:id="@+id/fam"
+
+                />
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/fina"
+            android:id="@+id/idr"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

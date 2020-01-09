@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohamed.clinic_app.MainActivity"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_weight="5.5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_s"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:padding="9dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Login"
+                    android:fontFamily="serif"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:text="Username/Email address"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sq_img"
+                    android:id="@+id/us"
+                    android:paddingLeft="10dp"
+                    android:textSize="13sp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".9"
+                android:paddingLeft="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:text="Password"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".9"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sq_img"
+                    android:id="@+id/ps"
+                    android:paddingLeft="10dp"
+                    android:textSize="13sp"
+                    android:inputType="textPassword"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:paddingTop="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:background="@drawable/mm"
+
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="#fff"
+                        android:text="patient"
+                        />
+
+                    <RadioButton
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/pat"
+
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#FFF" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:background="@drawable/mm"
+                    android:layout_marginRight="30dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="#fff"
+                        android:text="Doctor"
+
+                        />
+
+                    <RadioButton
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/doc"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.1"
+
+                android:background="@drawable/ss"
+                android:layout_margin="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Login"
+
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:onClick="nextpage"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--End of text-->
+    <LinearLayout
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".55"
+            android:gravity="center"
+            >
+
+            <View
+                android:layout_height="1dp"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:background="#455"
+                android:layout_marginLeft="20dp"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="OR"
+                android:textSize="16dp"
+                android:gravity="center"
+
+                />
+            <View
+                android:layout_height="1dp"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:background="#455"
+                android:layout_marginRight="20dp"
+
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".6">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:text="Creat new Account"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ></LinearLayout>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/oop"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                android:text="Doctor"
+                android:textColor="#fff"
+                android:layout_marginBottom="5dp"
+                android:onClick="godoctor"
+
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ></LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ></LinearLayout>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/fin"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                android:text="patient"
+                android:textColor="#3F51B5"
+                android:layout_marginBottom="7dp"
+                android:onClick="gopatient"
+
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                ></LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

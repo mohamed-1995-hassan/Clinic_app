@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/button_s"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="18sp"
+                    android:textColor="#fff"
+                    android:text="mohamed"
+                    android:id="@+id/txtpat"
+                    />
+
+
+
+            </LinearLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/fina"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/de"
+                />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+                    android:textColor="#1b1f86"
+                    android:text="checks"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                   android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                >
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/le"
+                    ></ListView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical"
+
+            >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:text="Add \n check"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="check"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="5"
+                    android:elevation="5dp"
+                    android:textSize="16dp"
+                    android:layout_marginRight="15dp"
+                    android:id="@+id/edcheck"
+                    android:paddingLeft="7sp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="Date"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="5"
+                    android:textSize="16dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    >
+
+                   <Spinner
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="7dp"
+                       android:elevation="7dp"
+                       android:id="@+id/day"
+                       android:entries="@array/day"
+                       ></Spinner>
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dp"
+                        android:elevation="7dp"
+                        android:id="@+id/month"
+                        android:entries="@array/month"
+                        ></Spinner>
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dp"
+                        android:elevation="7dp"
+                        android:id="@+id/year"
+                        android:entries="@array/year"
+                        ></Spinner>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="Medicine"
+                    android:textColor="#000"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:elevation="7dp"
+                >
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:textSize="14sp"
+                   android:text="9:00pm"
+                   />
+
+
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:text="9:00pm"
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="37dp"
+                    android:layout_weight="2.3"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    android:hint="your medecine"
+                    android:background="@drawable/fin"
+                    android:id="@+id/fnsd"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:elevation="7dp"
+                    android:padding="5dp"
+                    >
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="1"
+                       android:padding="4dp"
+                       >
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="match_parent"
+                           android:layout_weight=".5"
+                           android:text="start"
+                           android:textSize="10sp"
+                           android:gravity="center"
+                           android:textStyle="bold"
+
+                           />
+                       <Spinner
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight=".7"
+                           android:layout_gravity="center"
+                           android:layout_marginRight="5dp"
+                           android:entries="@array/hour"
+                           android:id="@+id/hour"
+
+                           ></Spinner>
+                       <Spinner
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight=".7"
+                           android:layout_gravity="center"
+                           android:entries="@array/minit"
+                           android:id="@+id/minit"
+                           >
+
+                       </Spinner>
+
+
+
+
+                   </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"
+                        android:padding="4dp"
+
+                        >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.2"
+                            android:text="Times"
+                            android:textSize="10sp"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+
+                            />
+
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="3dp"
+                            android:entries="@array/time"
+                            android:id="@+id/team"
+
+                            ></Spinner>
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center"
+
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:text="Add medicine"
+                    android:background="@drawable/button_ss"
+                    android:drawableLeft="@android:drawable/ic_input_add"
+                    android:onClick="add_med"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:text="Add check"
+                    android:background="@drawable/button_s"
+                    android:drawableLeft="@android:drawable/ic_input_add"
+                   android:onClick="add_check"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
